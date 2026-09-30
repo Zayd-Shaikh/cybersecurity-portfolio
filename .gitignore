@@ -1,0 +1,60 @@
+# =========================
+# Secrets / Credentials
+# =========================
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.*
+secrets.*
+*credentials*
+*secret*
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# =========================
+# Android / Gradle
+# =========================
+.gradle/
+local.properties
+**/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# =========================
+# IDEs / Editors
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / Temporary files
+# =========================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# Burp / Tool-generated files
+# =========================
+*.burp
